@@ -5,7 +5,7 @@ FROM python:3.8
 WORKDIR /app
 
 # Copy the Python script and requirements file into the container
-COPY your_python_script.py /app
+COPY KeyAuth.py /app
 COPY requirements.txt /app
 
 # Install the required packages
